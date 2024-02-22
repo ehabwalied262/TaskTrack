@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #393E40;
     margin: 0;
     padding: 0;
     display: flex;
@@ -13,7 +13,7 @@ body {
 .container {
     max-width: 400px;
     width: 100%;
-    background-color: #fff;
+    background-color: #191B1C;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -22,7 +22,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #fff;
 }
 
 input[type="text"] {
@@ -63,10 +63,11 @@ li {
     align-items: center;
     justify-content: space-between;
     cursor: pointer; /* Change cursor to pointer on hover */
+    color: #ddd;
 }
 
 li:hover {
-    background-color: #f9f9f9;
+    background-color: #393E40;
 }
 
 .completed {
