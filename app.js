@@ -75,7 +75,7 @@ function addTask() {
             }
         });
 
-        // Create a button to mark a task as completed
+        //   Create a button to mark a task as completed
         const completeButton = document.createElement("button"); 
         completeButton.innerHTML = '<span class="material-icons">done</span>'; // Add a checkmark icon
         completeButton.classList.add("complete-button"); // Assign a class for styling the button
